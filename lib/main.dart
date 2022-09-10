@@ -36,48 +36,65 @@ class ActiveWatchFace extends StatelessWidget {
       body: Container(
         width: 220,
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Colors.blueAccent,
-              Colors.blue,
-            ],
-          ),
+          color: Colors.black,
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Stack(
+              alignment: AlignmentDirectional.center,
               children: [
                 Column(
-                  children: const [
-                    Text(
-                      'Beba agua',
+                  children: [
+                    const Icon(
+                      Icons.water_drop_sharp,
+                      color: Colors.blue,
+                    ),
+                    const Text(
+                      '0',
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 20,
                         color: Colors.white,
                       ),
                     ),
-                    Text(
-                      '0/2000 ml',
+                    const Text(
+                      '/2000 ml',
                       style: TextStyle(
-                        fontSize: 24,
+                        fontSize: 20,
                         color: Colors.white,
                       ),
                     ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: const [
+                        InkWell(
+                          child: Icon(
+                            Icons.add_circle,
+                            color: Colors.blue,
+                            size: 24,
+                          ),
+                        ),
+                        InkWell(
+                          child: Icon(
+                            Icons.remove_circle,
+                            color: Colors.blue,
+                            size: 24,
+                          ),
+                        )
+                      ],
+                    )
                   ],
                 ),
                 const SizedBox(
-                  height: 160,
-                  width: 160,
+                  height: 172,
+                  width: 172,
                   child: CircularProgressIndicator(
                     strokeWidth: 4,
-                    value: 0.5,
-                    color: Colors.white,
+                    value: 1,
+                    color: Colors.blue,
                   ),
-                )
+                ),
               ],
             ),
           ],
