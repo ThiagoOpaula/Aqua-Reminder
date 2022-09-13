@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "323659851823",
+    "project_id": "aquareminder-57fe0",
+    "storage_bucket": "aquareminder-57fe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323659851823:android:6374948706e9fd5703feda",
+        "android_client_info": {
+          "package_name": "com.example.aqua_reminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323659851823-1kkqh5kd4apoqcbce5mhm7a6nme5sjng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2g8GDCgi2jMQRvZYUmIJIBZ1_OFGG09w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323659851823-1kkqh5kd4apoqcbce5mhm7a6nme5sjng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
