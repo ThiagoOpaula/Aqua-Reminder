@@ -1,16 +1,22 @@
-# aqua_reminder
+# Aqua reminder
 
-A new Flutter project.
+<div align="center">
+    <img src=https://img.shields.io/badge/-Flutter-blue>
+    <img src=https://img.shields.io/github/issues/ThiagoOpaula/Aqua-Reminder>
+    <img src=https://img.shields.io/github/forks/ThiagoOpaula/Aqua-Reminder >
+    <img src=https://img.shields.io/github/stars/ThiagoOpaula/Aqua-Reminder >
+  </div>
 
-## Getting Started
+A Water reminder app designed for wear os devices.
 
-This project is a starting point for a Flutter application.
+<div align="center">
+  <img src="githubImages/watchFace.png">
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+## ⚙️ Instalação dos 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+`
+flutter pub get
+`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Para executar a aplicação é necessario um emulador ou dispositivo android wear
